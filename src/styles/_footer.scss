@@ -1,0 +1,28 @@
+.footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+        
+        width: 100%;
+        max-width: 960px;
+        @media (max-width: 640px) {
+            max-width: 80%;
+        }
+        @media (max-width: 1024px) {
+            max-width: 90%;
+        }
+
+    }
+    &__text {
+        font-size: 1.2rem;
+        color: #ffffff;
+
+    }
+}
